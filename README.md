@@ -43,6 +43,19 @@ Elle intègre un système complet **d’inscription et de connexion**, ainsi qu�
 - MongoDB
 ---
 
+
+### 🔧Lancer l’application en local
+Avant de démarrer l’application, configurer l’adresse IP locale.
+
+Ouvrez les fichiers suivants :
+
+ExpoMobile/app/config.js
+
+API/src/config.js
+
+Remplacer l’adresse IP existante par l’adresse IPv4 locale de votre ordinateur en gargent le port present(8081 et 3000)
+(ex : 192.168.1.20).
+
 ### 🔧 Lancer l’API (Backend)
 
 ```bash
